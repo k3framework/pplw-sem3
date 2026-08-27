@@ -1,0 +1,119 @@
+{
+    "is_demo": true,
+    "restaurant": {
+        "name": "Distretto 10",
+        "timezone": "Asia/Jakarta",
+        "currency": "IDR",
+        "deposit_amount": "50000.00",
+        "max_guests": 6,
+        "max_days_ahead": 30
+    },
+    "roles": [
+        "admin",
+        "customer"
+    ],
+    "menu_categories": [
+        "Pasta",
+        "Pizza",
+        "Dolci"
+    ],
+    "menu_items": [
+        {
+            "name": "Pasta al pesto",
+            "category": "Pasta",
+            "description": "Pasta, pesto basil, dan tomat ceri.",
+            "price": "75000.00",
+            "image_path": "images/menu/pasta-pesto.jpg",
+            "is_active": true
+        },
+        {
+            "name": "Pizza pomodoro",
+            "category": "Pizza",
+            "description": "Pizza dengan tomat, keju, dan rosemary.",
+            "price": "85000.00",
+            "image_path": "images/menu/pizza-pomodoro.jpg",
+            "is_active": true
+        },
+        {
+            "name": "Tiramisu",
+            "category": "Dolci",
+            "description": "Lapisan kopi, krim mascarpone, dan kakao.",
+            "price": "45000.00",
+            "image_path": "images/menu/tiramisu.jpg",
+            "is_active": true
+        }
+    ],
+    "restaurant_tables": [
+        {
+            "code": "t01",
+            "capacity": 2,
+            "is_active": true
+        },
+        {
+            "code": "t02",
+            "capacity": 2,
+            "is_active": true
+        },
+        {
+            "code": "t03",
+            "capacity": 4,
+            "is_active": true
+        },
+        {
+            "code": "t04",
+            "capacity": 4,
+            "is_active": true
+        },
+        {
+            "code": "t05",
+            "capacity": 6,
+            "is_active": true
+        },
+        {
+            "code": "t06",
+            "capacity": 6,
+            "is_active": true
+        }
+    ],
+    "time_slots": [
+        {
+            "start_time": "12:00:00",
+            "end_time": "14:00:00",
+            "is_active": true
+        },
+        {
+            "start_time": "14:00:00",
+            "end_time": "16:00:00",
+            "is_active": true
+        },
+        {
+            "start_time": "16:00:00",
+            "end_time": "18:00:00",
+            "is_active": true
+        },
+        {
+            "start_time": "18:00:00",
+            "end_time": "20:00:00",
+            "is_active": true
+        },
+        {
+            "start_time": "20:00:00",
+            "end_time": "22:00:00",
+            "is_active": true
+        }
+    ],
+    "prototype_customer": {
+        "name": "Pelanggan Demo",
+        "email": "pelanggan@example.test",
+        "phone": "081200000000"
+    },
+    "prototype_reservation": {
+        "code": "d10-20261010-001",
+        "date": "2026-10-10",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "guests": 4,
+        "table": "t03",
+        "deposit_amount": "50000.00"
+    }
+}
